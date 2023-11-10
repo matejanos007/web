@@ -1,1 +1,79 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlap</title>
+</head>
+<body>
+    <h1>Bolt</h1>
 
+    <form action="">
+        <fieldset>
+            <legend>Pc alkatrészek</legend>
+            <input type="radio" name="Videó kártya" id="a1">
+            <label for="a1">Videó kártya</label>
+            <input type="radio" name="Alaplap" id="a2">
+            <label for="a2">Alaplap</label>
+            <input type="radio" name="Ram" id="a3">
+            <label for="a3">Ram</label>
+            <input type="radio" name="Processzor" id="a4">
+            <label for="a4">Processzor</label>
+            <input type="radio" name="Komplett gep" id="a5">
+            <label for="a5">Teljes Gép</label>
+            <br><br>
+            <input type="range" name="ar" id="ar1">
+            <label for="ar1">10'000Ft-200'000Ft</label>
+            <br><br>
+            <label for="db">Alkatrész darabszám:</label>
+            <input type="number" name="darab" id="db" value="1" min="0" max="6" style="width: 30px;">
+            <br>
+
+        </fieldset>
+        <fieldset>
+            <Legend>A rendelésed:</Legend>
+            <br><br>
+            <label for="ad1">Neved:</label>
+            <br>
+            <input type="text" name="nev" id="ad1" >
+            <br>
+            <label for="ad2">Email:</label>
+            <br>
+            <input type="text" name="email" id="ad2">
+            <br>
+            <label for="ad3">Telefonszám:</label>
+            <br>
+            <input type="text" name="telszam" id="ad3">
+            
+        </fieldset>
+        <fieldset>
+            <legend>Futárnak</legend>
+            <label for="fad1">Fizetés:</label>
+            <select>
+                <option>---Válassz!--- </option>
+                <option>Utánvét        </option>
+                <option>Bankártya      </option>
+                <option>Készpénz       </option>
+                <option>1 zsák krumpli </option>
+            </select>
+            <br><br>
+            <label for="fad2">Futár</label>
+            <select>
+                <option>---Válassz!---   </option>
+                <option>Posta            </option>
+                <option>Foxpost          </option>
+                <option>GLS              </option>
+                <option>Személyes átvétel</option>
+            </select>
+
+        </fieldset>
+
+
+
+
+
+
+    </form>
+    
+</body>
+</html>
