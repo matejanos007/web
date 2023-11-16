@@ -6,31 +6,98 @@
     <title>Űrlap</title>
 </head>
 <body>
-    <h1>Bolt</h1>
+    <h1>PC Bolt</h1>
     <br>
     <a href="index.html">Vissza a főoldalra!</a>
-    <br>
+    <br><br>
 
     <form action="">
         <fieldset>
             <legend>Pc alkatrészek</legend>
-            <input type="radio" name="Videó kártya" id="a1">
-            <label for="a1">Videó kártya</label>
-            <input type="radio" name="Alaplap" id="a2">
-            <label for="a2">Alaplap</label>
-            <input type="radio" name="Ram" id="a3">
-            <label for="a3">Ram</label>
-            <input type="radio" name="Processzor" id="a4">
-            <label for="a4">Processzor</label>
-            <input type="radio" name="Komplett gep" id="a5">
-            <label for="a5">Teljes Gép</label>
             <br><br>
+            
+            <label for="a1">Videó kártya</label>
+            <input type="radio" name="aa1" id="aa1">
+            <label for="aa1">NVIDIA</label>
+            <input type="radio" name="aa1" id="aa2">
+            <label for="aa1">AMD</label>
+            <hr>
+            <br>
+            
+            
+            <label for="a2">Alaplap</label>
+            <input type="radio" name="ab1" id="ab1">
+            <label for="ab1">AMD AM4</label>
+            <input type="radio" name="ab1" id="ab3">
+            <label for="aa1">AMD AM5</label>
+            <input type="radio" name="ab1" id="ab2">
+            <label for="ab2">Intel 1200</label>
+            <input type="radio" name="ab1" id="ab4">
+            <label for="ab4">Intel 1700</label>
+
+            <hr>
+            <br>
+            
+            <label for="a3">Ram</label>
+            <input type="radio" name="ac1" id="ac1">
+            <label for="ac1">4gb</label>
+            <input type="radio" name="ac1" id="ac2">
+            <label for="ac2">8gb</label>
+            <input type="radio" name="ac1" id="ac3">
+            <label for="ac3">16gb</label>
+            <input type="radio" name="ac1" id="ac4">
+            <label for="ac4">32gb</label>
+            <hr>
+            <br>
+            
+            <label for="a4">Processzor</label>
+            <input type="radio" name="ad1" id="ad1">
+            <label for="ad1">I3</label>
+            <input type="radio" name="ad1" id="ad2">
+            <label for="ad2">I5</label>
+            <input type="radio" name="ad1" id="ad3">
+            <label for="ad3">I7</label>
+            <input type="radio" name="ad1" id="ad4">
+            <label for="ad4">Ryzen 3</label>
+            <input type="radio" name="ad1" id="ad5">
+            <label for="ad5">Ryzen 5</label>
+            <hr>
+            <br>
+            
+            <label for="a5">Teljes Gép</label>
+            <input type="radio" name="ae1" id="ae1">
+            <label for="ae1">Olcsó</label>
+            <input type="radio" name="ae1" id="ae2">
+            <label for="ae2">Céges</label>
+            <input type="radio" name="ae1" id="ae3">
+            <label for="ae3">RGB-s</label>
+            <input type="radio" name="ae1" id="ae4">
+            <label for="ae4">Gamer</label>
+            <input type="radio" name="ae1" id="ae5">
+            <label for="ae5">Drága</label>
+
+            <hr>
+            <br>
+            
+            <label for="a5">Laptop</label>
+            <input type="radio" name="af1" id="af1">
+            <label for="af1">No Name</label>
+            <input type="radio" name="af1" id="af2">
+            <label for="af2">HP</label>
+            <input type="radio" name="af1" id="af3">
+            <label for="af3">Lenovo</label>
+            <input type="radio" name="af1" id="af4">
+            <label for="af4">Acer</label>
+
+            <hr>
+            <br>
+
             <input type="range" name="ar" id="ar1">
-            <label for="ar1">10'000Ft-200'000Ft</label>
+            <label for="ar1">Szűrés: 10'000Ft-200'000Ft</label>
             <br><br>
             <label for="db">Alkatrész darabszám:</label>
             <input type="number" name="darab" id="db" value="1" min="0" max="6" style="width: 30px;">
-            <br>
+            <br><br>
 
         </fieldset>
         <fieldset>
@@ -38,18 +105,19 @@
             <br><br>
             <label for="ad1">Neved:</label>
             <br>
-            <input type="text" name="nev" id="ad1" >
+            <input type="text" name="nev" id="ad1" placeholder="Add meg a neved!">
             <br>
             <label for="ad2">Email:</label>
             <br>
-            <input type="text" name="email" id="ad2">
+            <input type="text" name="email" id="ad2" placeholder="example1@gmail.com">
             <br>
             <label for="ad3">Telefonszám:</label>
             <br>
-            <input type="text" name="telszam" id="ad3">
-            
+            <input type="number" name="telszam" id="ad3" placeholder="+36 30 123 4567">
+            <br><br>
         </fieldset>
         <fieldset>
+            <br><br>
             <legend>Futárnak</legend>
             <label for="fad1">Fizetés:</label>
             <select>
@@ -68,11 +136,13 @@
                 <option>GLS              </option>
                 <option>Személyes átvétel</option>
             </select>
-
+            <br><br>
         </fieldset>
 
-
-
+        <br><br>
+        <input type="button" value="Rendelés véglegesítése">
+        <input type="reset" value="Visszavonás!">
+        <br><br>
 
 
 
