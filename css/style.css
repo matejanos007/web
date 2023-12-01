@@ -8,3 +8,8 @@ nav a:hover {
     background-color: lightgreen;
     font-weight: bold;
 }
+
+body {
+    background-color: rgb(24, 24, 24);
+    color: rgb(0, 190, 0);
+}
