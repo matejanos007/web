@@ -1,11 +1,11 @@
 nav a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 nav a:hover {
-    color: green;
-    background-color: lightgreen;
+    color: rgb(0, 97, 0);
+    background-color: rgb(156, 255, 156);
     font-weight: bold;
 }
 
