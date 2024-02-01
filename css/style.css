@@ -19,7 +19,26 @@ footer{
     color: rgb(24, 24, 24);
     text-align: center;
 }
+/*320x180px*/
 #evszakok{
-    width: 640px;
-    height: 360px;
+    
+    width: 320px;
+    height: 180px;
+    float: left;
+    margin: 5px
+    
+    
 }
+.divborder:hover{
+    border: 1px solid rgba(0, 252, 185, 0.5);
+    border-collapse: collapse;
+    box-shadow: 0 0 50px rgba(0, 252, 185, 0.5)
+    
+}
+.divszoveg{
+    padding: 0 100px 0 100px;
+    
+    
+}
+
+
