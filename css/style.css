@@ -20,7 +20,7 @@ footer{
     text-align: center;
 }
 /*320x180px*/
-#evszakok:hover{
+#evszakok{
     border: rgba(0, 252, 185, 0.5) solid 1px;
     display: block;
     transition: transform .2s;
@@ -28,15 +28,14 @@ footer{
     height: 180px;
     float: left;
     margin: auto
-
+}
+#evszakok:hover{
     transform: scale(1.25);
     border: 1px solid rgba(0, 252, 185, 0.5);
     border-collapse: collapse;
     border-radius: 4px;
     box-shadow: 0 0 50px rgba(0, 252, 185, 0.5)
-    
-}
-
+    }
     
 
 .divszoveg{
