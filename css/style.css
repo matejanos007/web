@@ -24,8 +24,6 @@ footer{
     border: rgba(0, 252, 185, 0.5) solid 1px;
     display: block;
     transition: transform .2s;
-    width: 320px;
-    height: 180px;
     float: left;
     margin: auto
 }
@@ -35,7 +33,12 @@ footer{
     border-collapse: collapse;
     border-radius: 4px;
     box-shadow: 0 0 50px rgba(0, 252, 185, 0.5)
-    }
+}
+
+.divimage {
+    width: 320px;
+    height: 180px;
+}
     
 
 .divszoveg{
