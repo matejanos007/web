@@ -18,6 +18,7 @@ footer{
     background-color: rgb(0, 190, 0);
     color: rgb(24, 24, 24);
     text-align: center;
+    position: fixed;
 }
 /*320x180px*/
 #evszakok{
