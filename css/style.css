@@ -25,7 +25,7 @@ footer{
     display: block;
     transition: transform .2s;
     float: left;
-    margin: auto
+    margin: 5px
 }
 #evszakok:hover{
     transform: scale(1.25);
@@ -38,7 +38,7 @@ footer{
 .divimage {
     width: 320px;
     height: 180px;
-    margin: 5px;
+    
     border: rgba(0, 252, 185, 0.5) solid 3px;
 }
     
