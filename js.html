@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Szín</title>
+</head>
+<body>
+    <h1>Színválasztó JS</h1>
+    <form action="javascript:void(0)">
+        <fieldset>
+            <label for="szin_color">Válasz egy színt!</label><br>
+            <input type="color" name="szin_color" id="szin_color" value="#ff0000">
+            <br>
+            <input type="button" value="Szöveg" name="szin_button" id="szin_button" onclick="szinez()">
+        </fieldset>
+
+        <fieldset>
+            <label for="hatter_color">Válasz egy színt!</label><br>
+            <input type="color" name="hatter_color" id="hatter_color">
+            <br>
+            <input type="button" value="Háttér" name="hatter_button" id="hatter_button" onclick="hatter()">
+        </fieldset>
+        <fieldset>
+            <p id="neved" style="text-align: center;"></p>
+            <input type="text" name="neved" id="neved" onchange="nevki()" placeholder="Mi a neved?">
+        </fieldset>
+    </form>
+
+    <script>
+        function szinez() {
+            const colorInput = document.getElementById('szin_color')
+            document.body.style.color = colorInput.value;
+        }
+
+        function hatter() {
+            const colorInput = document.getElementById('hatter_color')
+            document.body.style.backgroundColor = colorInput.value;
+        }
+
+        function nevki() {
+            const nev = document.getElementById("neved");
+            document.getElementById("neved").textContent = "Szia " + nev.value;
+        }
+    </script>
+</body>
+</html>
