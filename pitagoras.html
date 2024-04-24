@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitagorasz számoló</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Micro+5+Charted&display=swap');
+
+        .micro-5-charted-regular {
+        font-family: "Micro 5 Charted", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        }
+    </style>
+        
+</head>
+<body>
+    <h1 class="micro-5-charted-regular">Pitagorasz tétel számoló</h1>
+    
+
+    <form action="javascript:szamol()">
+        <fieldset>
+            <legend>
+                számoló
+            </legend>
+            <label for="a">a:</label>
+            <input type="number" name="a" id="aa" placeholder="a oldal:"><br><br>
+            <label for="a">b:</label>
+            <input type="number" name="b" id="bb" placeholder="b oldal:"><br><br>
+            <label for="a">c:</label>
+            <input type="number" name="c" id="cc" placeholder="c oldal:"><br><br>
+
+            <button type="reset">Törlés</button>
+            <button type="submit">Számol</button>
+
+        </fieldset>
+    </form>
+    
+
+    <script>
+        function szamol(){
+            let a = 0;
+            let b = 0;
+            let c = 0;
+
+            a = aa.value;
+            b = bb.value;
+
+            c.value = Math.sqrt(a*a+b*b);
+        }
+    </script>
+</body>
+</html>
